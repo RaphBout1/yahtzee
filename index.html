@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.1.min.js.js"></script>
+    <title>Yahtzee</title>
+</head>
+
+<body>
+    <div id="partdes">
+        <h1>Yahtzee</h1>
+        <div id="tapis">
+            <div class="des"></div>
+            <div class="des"></div>
+            <div class="des"></div>
+            <div class="des"></div>
+            <div class="des"></div>
+        </div>
+        <span id="lancer"><a ></a></span>
+    </div>
+    <div id="tabs">
+        <table class="cinereousTable">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Points</th>
+                </tr>
+            </thead>
+            <tbody id="pts">
+                <tr>
+                    <td><img src="img/1.png" alt=""></td>
+                    <td class="cliquable">0</td>
+                </tr>
+                <tr>
+                    <td><img src="img/2.png" alt=""></td>
+                    <td class="cliquable">0</td>
+                </tr>
+                <tr>
+                    <td><img src="img/3.png" alt=""></td>
+                    <td class="cliquable">0</td>
+                </tr>
+                <tr>
+                    <td><img src="img/4.png" alt=""></td>
+                    <td class="cliquable">0</td>
+                </tr>
+                <tr>
+                    <td><img src="img/5.png" alt=""></td>
+                    <td class="cliquable">0</td>
+                </tr>
+                <tr>
+                    <td><img src="img/6.png" alt=""></td>
+                    <td class="cliquable">0</td>
+                </tr>
+                <tr>
+                    <td>S.T.</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Prime</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="cinereousTable">
+            <thead>
+                <tr>
+                    <th>Combinaison</th>
+                    <th>Valeur</th>
+                    <th>Points</th>
+                </tr>
+            </thead>
+            <tbody id="combine">
+                <tr>
+                    <td>Brelan</td>
+                    <td>Somme</td>
+                    <td class="cliquable">0</td>
+                </tr>
+                <tr>
+                    <td>Petite suite</td>
+                    <td>30</td>
+                    <td class="cliquable">0</td>
+                </tr>
+                <tr>
+                    <td>Grande suite</td>
+                    <td>40</td>
+                    <td class="cliquable">0</td>
+                </tr>
+                <tr>
+                    <td>Full</td>
+                    <td>25</td>
+                    <td class="cliquable">0</td>
+                </tr>
+                <tr>
+                    <td>Carré</td>
+                    <td>Somme</td>
+                    <td class="cliquable">0</td>
+                </tr>
+                <tr>
+                    <td>Yahtzee</td>
+                    <td>50</td>
+                    <td class="cliquable">0</td>
+                </tr>
+                <tr>
+                    <td>Chance</td>
+                    <td>Somme</td>
+                    <td class="cliquable">0</td>
+                </tr>
+                <tr>
+                    <td colspan=2>Total</td>
+                    
+                    <td >0</td>
+                </tr>
+                <tr>
+                    <td colspan=2>Total</td>
+ 
+                    <td>0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <embed src="music.mp3" loop="true" autostart="true" width="0" height="0">
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
