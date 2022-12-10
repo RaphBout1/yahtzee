@@ -23,8 +23,8 @@ $(document).ready(function () {
   /**Manage turn or dices shots
    */
   function turn() {
-    initTabDes();
-    if (nbTir < nbTirMax) {
+
+    if (nbTir < nbTirMax) {    initTabDes();
       $(".des:not(.select)").each(function () {
         printDes($(this));
       });
@@ -33,8 +33,9 @@ $(document).ready(function () {
         $("#lancer").addClass("desactivate");
       }
       results();
+          nbTir = nbTir + 1;
     }
-    nbTir = nbTir + 1;
+
   }
 
   /** Change turn and restore all for new turn
